@@ -39,7 +39,7 @@ data.frame(name=sub(" -.+", "", list.files("resumes/")),
 
 
 # Aaron Doe – C
-```{r out.width="100%", echo=FALSE}
+```{r echo=FALSE}
 knitr::include_graphics("resumes/Aaron Doe - Resume.pdf")
 ```
 
@@ -62,7 +62,7 @@ No public code available.
 ---
 
 # Alex Ostrovsky – A+
-```{r out.width="100%", echo=FALSE}
+```{r echo=FALSE}
 knitr::include_graphics("resumes/Alex Ostrovsky - resume.pdf")
 ```
 
