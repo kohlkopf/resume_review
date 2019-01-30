@@ -39,7 +39,9 @@ data.frame(name=sub(" -.+", "", list.files("resumes/")),
 
 
 # Aaron Doe – C
-<iframe src="resumes/Aaron Doe - Resume.pdf"width=100% height="500"></iframe>
+```{r out.width="100%", echo=FALSE}
+knitr::include_graphics("resumes/Aaron Doe - Resume.pdf")
+```
 
 ### Research experience
 
@@ -60,7 +62,9 @@ No public code available.
 ---
 
 # Alex Ostrovsky – A+
-`r knitr::include_graphics("resumes/Alex Ostrovsky - resume.pdf")`
+```{r out.width="100%", echo=FALSE}
+knitr::include_graphics("resumes/Alex Ostrovsky - resume.pdf")
+```
 
 ### Research experience
 
