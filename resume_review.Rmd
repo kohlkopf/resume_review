@@ -60,7 +60,6 @@ No public code available.
 ---
 
 # Alex Ostrovsky – A+
-<iframe src="resumes/Alex Ostrovsky - resume.pdf"width=100% height="500"></iframe>
 `r knitr::include_graphics("resumes/Alex Ostrovsky - resume.pdf")`
 
 ### Research experience
