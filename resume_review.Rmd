@@ -1,0 +1,329 @@
+---
+title: "University of Oregon Resume Review"
+subtitle: "Candidates for internship | 2019"
+author: "Kohl Kinning"
+date: "`r format(Sys.time(), '%d %B %Y')`"
+output:
+  html_notebook:
+    theme: cosmo
+    toc: yes
+    toc_float:
+      collapsed: yes
+    self_contained: yes
+editor_options: 
+  chunk_output_type: inline
+---
+
+# Grades
+To reduce the candidate to one data point:
+
+```{r rows.print=14, echo=FALSE}
+sub(" -.+", "", list.files("resumes/"))
+data.frame(name=sub(" -.+", "", list.files("resumes/")),
+           grade=c("C",
+                   "A+",
+                   "C",
+                   "A",
+                   "B",
+                   "C-",
+                   "A",
+                   "A-",
+                   "A",
+                   "C",
+                   "A",
+                   "C",
+                   "B-",
+                   "B+")
+           )
+```
+
+
+# Aaron Doe – C
+<iframe src="resumes/Aaron Doe - Resume.pdf"width=100% height="500"></iframe>
+
+### Research experience
+
+Physics lab assistant, computational focus with machine learning experience. Metagenomics focus for BGMP project.
+
+### Education
+
+A weakness is the undergrad focus on Physics/Math. I doubt that the math focus is statistics considering it lumped together with physics. A strong stats background would be an asset to the lab. Went to the M.S. program right after earning B.S.
+
+### Goodness-of-fit
+
+The image analysis experience sets Alex apart. He/she may be able to work on similar projects that Peter will work on less once Peter focuses on the PhD work. The parallel programming and machine learning experience makes Alex a different candidate that most in the program, might be good to ask what kind of Bioinformatics Alex is hoping to do.
+
+### Github
+
+No public code available.
+
+---
+
+# Alex Ostrovsky – A+
+<iframe src="resumes/Alex Ostrovsky - resume.pdf"width=100% height="500"></iframe>
+`r knitr::include_graphics("resumes/Alex Ostrovsky - resume.pdf")`
+
+### Research experience
+
+Behavioral studies in Smear lab, olfaction. Used stats and investigated transcriptome data. Ideal background for this lab! More research experience in Posthelwait lab, also gained experience with statistics and genomics. Even focused on miRNA in an experiment he/she designed.
+
+### Education
+
+Went to the M.S. program right after earning B.S. 
+
+### Goodness-of-fit
+
+The strongest candidate. Relevant research experience, backgournd in genetics, genomics, and stats from before the program, also experience leading discussion groups. 
+
+### Github
+
+No public code available.
+
+---
+
+# Anna Lundberg – C
+<iframe src="resumes/Anna Lundberg - Resume.pdf"width=100% height="500"></iframe>
+
+### Research experience
+
+BGMP internship: worked with image analysis/computer vision. Could help with deconvolution work in the lab.
+
+### Education
+
+Graduated UO in 2015, worked field related to major for U.S. Forest Service as a plant tech.
+
+### Goodness-of-fit
+
+All research experience is ecologically based, with some microbe culture techniques. Work experience probably translates to a more well-adjusted with realistic work expectations.
+
+### Github
+
+Some contributions (if the git record of authorship is to be trusted), but only ~ 10% of Phillip McNamara's contributions. No other projects, so the BGMP program is probably the first use of github. Clean, intelligible code.
+
+---
+
+# Audrey Gill – A
+<iframe src="resumes/Audrey Gill - Resume.pdf"width=100% height="500"></iframe>
+
+### Research experience
+
+Extra work during BGMP program, data dimension reduction with variational autoencoders, deep learning! Network analysis of miRNA interactions. Heavy stats background, even biostats specifically. It looks like Audrey set up the miRNA project for the BGMP, some initiative!
+
+### Education
+
+B.S. and M.S. in statistics, with research experience in bio-specific stats.
+
+### Goodness-of-fit
+
+Strong candidate, the only thing missing is neuroscience specific interest/training!
+
+### Github
+
+Could not find github account, maybe it's not publicly available?
+
+---
+
+# Carolyn Brewster – B
+<iframe src="resumes/Carolyn Brewster - resume.pdf"width=100% height="500"></iframe>
+
+### Research experience
+
+Not sure if Carolyn was the one who "pioneered the use of designer PPR proteins to bind target RNA sequences" or the PI did. Would be good to clarify. If she did, excellent initiative and interest in developing novel technologies. Co-author on published paper.
+
+### Education
+
+Looks like consistent interest, CS/Math and Biology for undergrad. Solid path in to BGMP program, no mid-life crisis career change here.
+
+### Goodness-of-fit
+
+Lab experience is good, possibly pioneered a new RNA binding technology. Has varied computer science experience--from her undergrad education and the web-development job. Would probably be able to pick up new computation tools quickly and efficiently. And maybe help to maintain the website! No specific background in the work we do.
+
+### Github
+
+No public code available.
+---
+
+# Daisy Chilin – C-
+<iframe src="resumes/Daisy Chilin - resume.pdf"width=100% height="500"></iframe>
+
+### Research experience
+
+None outside of BGMP program (except a month looking at limpet metabolic rates). Co-authored paper on metabolic rates of limpets.
+
+### Education
+
+B.S. in Marine Biology in 2013, worked in Zebrafish facility 2015-2018.
+
+### Goodness-of-fit
+
+No bioinfo experience from before the program. Biology track in undergrad, but no molecular Biology focus. Interest in the neuroscience at a minimum would help her stand out, but nothing indicates this (BGMP project was host-microbe interactions).
+
+### Github
+
+No public code available.
+---
+
+# David Degnan – A
+<iframe src="resumes/David Degnan - Resume.pdf"width=100% height="500"></iframe>
+
+### Research experience
+
+ImageJ and fluorescent microscopy experience, also Big Data work in the o'Roak lab at OHSU. Also wet lab experience measuring membrane potential. BGMP internship: worked with image analysis/computer vision which could help with deconvolution work in the lab. 
+
+### Education
+
+B.S. Cell and Molecular Bio, Magna cum laude. Designed and taught very relevant classes with good class retention rate.
+
+### Goodness-of-fit
+
+Wet lab experience measuring membrane potential. Would probably pick of principles of neuroscience quickly. Well rounded and relevant research experience. Initiative with honors society, securing Murdock funding.
+
+### Github
+
+Shares the project repo, but no commits have been authored by him in the repo. No other projects to investigate.
+
+---
+
+# Helena Klein – A-
+<iframe src="resumes/Helena Klein - Resume.pdf"width=100% height="500"></iframe>
+
+### Research experience
+
+2015-present work in host-microbe lab, completed honor's thesis. Several publications.
+
+### Education
+
+B.S. in Biology, Summa cum laude. Statistics grader. 
+
+### Goodness-of-fit
+
+Strong background in Biostats would be welcome in the lab. Strong academic record, top of the class and honors track. Mentoring initiative. Experience with MATLAB a plus. No focused experience which would contribute to a good fit in the lab, but a very strong, generally well-rounded candidate.
+
+### Github
+
+No public code available.
+---
+
+# Jordan Lee – A
+<iframe src="resumes/Jordan Lee - Resume.pdf"width=100% height="500"></iframe>
+
+### Research experience
+
+First author on publication. Secured several awards for research, good initiative. 
+
+### Education
+
+B.S. Aquatic Science, worked in quality assurance at Google till BGMP.
+
+### Goodness-of-fit
+
+The experience with our lab obviously helps. She'll have a much better idea if she'll be a good fit than those not experienced. Worked in labs after undergrad (with some leadership experience) and quality assurance for Google. Not sure how much of Google job was actual programming, would be good to clarify. Should be very familiar with team work environment.
+
+### Github
+
+No public code available.
+
+---
+
+# Maddy Griswold – C
+<iframe src="resumes/Maddy Griswold - Resume.pdf"width=100% height="500"></iframe>
+
+### Research experience
+
+Research involving tertiary structure of RNA. Could be an interesting direction in the lab.
+
+### Education
+
+B.S. Bioinformatics, great! Went straight in to BGMP program from B.S.
+
+### Goodness-of-fit
+
+The Bioinformatics degree is attractive, but there is nothing making her stand out except that. 
+
+### Github
+
+She included her github account, but there is nothing on there. Concerning that a major in Bioinfo has no experience with version control and exploratory programming.
+
+---
+
+# Max Hills – A
+<iframe src="resumes/Max Hills - Resume.pdf"width=100% height="500"></iframe>
+
+### Research experience
+
+Biophysics lab, memory and cognition research (used Matlab for analysis), and our project.
+
+### Education
+
+B.S. in Neuroscience and Behavior (cum laude), work in neuroscience labs leading to the BGMP program.
+
+### Goodness-of-fit
+
+Judging by the resume, a good fit regardless of nepotism. Proven interest in neuroscience. Our project didn't seem to scare him away. The most explicitly interested in the lab.
+
+### Github
+
+No public code available.
+---
+
+# Nate Olowo – C
+<iframe src="resumes/Nate Olowo - Resume.pdf"width=100% height="500"></iframe>
+
+### Research experience
+
+Worked collaboratively with programmer as an undergrad researcher, so probably didn't start programming until BGMP.
+
+### Education
+
+B.S. Chemistry, with math focus. Not too relevant.
+
+### Goodness-of-fit
+
+Seems a bit products (industry) focused. No evidence of initiative. Does not seem like he would be interested in the focus of the lab.
+
+### Github
+
+No public code available.
+
+---
+
+# Philip McNamara – B-
+<iframe src="resumes/Philip McNamara - Resume.pdf"width=100% height="500"></iframe>
+
+### Research experience
+
+Experience in a lab as an undergrad, glucose-stimulated insulin secretion experiments. Oral presentation on research.
+
+### Education
+
+B.S. in relevant Biology (Molecular, Cellular, and Developmental Biology)
+
+### Goodness-of-fit
+
+Data coordinator betweetn B.S and BGMP program.
+
+### Github
+
+Appears to have done most of the work on the code for the group project. Very clean contributions and good documentation. One previous project from CS course. Familiar with complex data structures.
+
+---
+
+# Trevor Enright – B+
+<iframe src="resumes/Trevor Enright - Resume.pdf"width=100% height="500"></iframe>
+
+### Research experience
+
+Didn't do research in Postlethewait lab, it looks like the work with our lab in the BGMP program is it.
+
+### Education
+
+B.S. in CS and Math, plus five years working as a technician in the Postlethwait lab. Solid background.
+
+### Goodness-of-fit
+
+Prior experience with the lab is obviously a plus. Experience working in a lab for five years is a plus, and solid CS/Math experience is a plus. A good candidate regardless of nepotism.
+
+### Github
+
+Code from before the project for CS classes. Not a novice programmer, clean and intelligible.
+
